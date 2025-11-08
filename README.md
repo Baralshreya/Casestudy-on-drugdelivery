@@ -1,10 +1,10 @@
 # Casestudy-on-drugdelivery
-*1.	Introduction*
+#*1.	Introduction*
             A control system is a system of devices or set of devices, that manages, commands, directs or regulates the behavior of other devices or systems to achieve desired results. In other words, the definition of a control system can be simplified as a system, which controls other systems. As the human civilization is being modernized day by day the demand for automation is increasing accordingly. Automation highly requires control of devices.
                     Large and complex devices, such as MRI scanners or radiation therapy systems for cancer treatment, typically have remote display and control systems associated with them, allowing a clinician to administer treatments safely and efficiently. These control systems have much in common with enterprise-class desktop software, an area in which ICS has over a decade of experience providing custom software solutions. 
                       Chemotherapy is a drug treatment that uses powerful chemicals to kill fast-growing cells in your body. Chemotherapy is most often used to treat cancer, since cancer cells grow and multiply much more quickly than most cells in the body. Many different chemotherapy drugs are available. Chemotherapy drugs can be used alone or in combination to treat a wide variety of cancers.
  
-*2. Objectives*
+#*2. Objectives*
 ●	To design a simulink model for Chemotherapy drug delivery
 ●	To find transfer function for Chemotherapy drug delivery
 ●	To find stability of the system
@@ -12,7 +12,7 @@
 
  
 
-*3. Theory*
+#*3. Theory*
 
 *3.1	Drug Delivery System*
     Drug delivery refers to approaches, formulations, technologies, and systems for transporting a pharmaceutical compound in the body some time based on nanoparticles as needed to safely achieve its desired therapeutic effect. It may involve scientific site-targeting within the body, or it might involve facilitating systemic pharmacokinetics in any case, it is typically concerned with both quantity and duration of drug presence. Drug delivery is often approached via a drug's chemical formulation, but it may also involve medical devices or drug-device combination products. Drug delivery is a concept heavily integrated with dosage form and route of administration, the latter sometimes even being considered part of the definition.
@@ -111,19 +111,17 @@ Types of Control Systems
  <img width="718" height="434" alt="image" src="https://github.com/user-attachments/assets/fb9ee8f8-4956-4799-8945-ebe9d6c8c54c" />
 
                                      Fig: unit impulse
-*4. Methodology*
+#*4. Methodology*
          For the analysis of Chemotherapy drug delivery we used MATLAB simulink as the tool. We developed a block diagram and realized the mathematical modeling by the help of first principle model. Here, to observe the equation we also used Pharmacokinetics Two-compartment model of heat and mass. 
             After getting the required expression using the mathematical models we tried to analyze it by changing it to s-domain (i.e Transfer function). In pharmacokinetics two compartment model, there are two compartment ( central and peripheral). Here Blood is referred as the central compartment and tissue is referred as peripheral compartment. Concentration of drug in blood is (CDB), Concentration of drug in tissue is (CDT) and KBT,KTB are the ingoing and outgoing from blood and tissue. Another parameter is elimination(Qrem) which is release of the drug. From these parameters we analysed the model and simulation is done with the help of MATLAB.
 
         
- * 5. Simulink Model*
+ #* 5. Simulink Model*
          
-      
-     
      <img width="1029" height="677" alt="image" src="https://github.com/user-attachments/assets/38500b9e-76d9-41b8-a227-9ded60805aa2" />
 
       Fig : Simulink model for the system 
-*6. Time response*
+#*6. Time response*
 
  <img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/df3d3e5e-6019-4061-81ce-44b61af5e108" />
 
@@ -131,7 +129,7 @@ Types of Control Systems
  <img width="975" height="575" alt="image" src="https://github.com/user-attachments/assets/730f0770-8c1e-4fc8-9b9b-29f4cf3c9b17" />
 
                         Fig : Impulse Response
-*7. Stability Analysis (Bode Plot)*
+#*7. Stability Analysis (Bode Plot)*
 
  <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/565c086e-32c0-4835-a048-e425813d96b0" />
 
