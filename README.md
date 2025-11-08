@@ -1,10 +1,10 @@
 # Casestudy-on-drugdelivery
-*1.	Introduction*
+#1.	Introduction
             A control system is a system of devices or set of devices, that manages, commands, directs or regulates the behavior of other devices or systems to achieve desired results. In other words, the definition of a control system can be simplified as a system, which controls other systems. As the human civilization is being modernized day by day the demand for automation is increasing accordingly. Automation highly requires control of devices.
                     Large and complex devices, such as MRI scanners or radiation therapy systems for cancer treatment, typically have remote display and control systems associated with them, allowing a clinician to administer treatments safely and efficiently. These control systems have much in common with enterprise-class desktop software, an area in which ICS has over a decade of experience providing custom software solutions. 
                       Chemotherapy is a drug treatment that uses powerful chemicals to kill fast-growing cells in your body. Chemotherapy is most often used to treat cancer, since cancer cells grow and multiply much more quickly than most cells in the body. Many different chemotherapy drugs are available. Chemotherapy drugs can be used alone or in combination to treat a wide variety of cancers.
  
-*2. Objectives*
+#2. Objectives
 ●	To design a simulink model for Chemotherapy drug delivery
 ●	To find transfer function for Chemotherapy drug delivery
 ●	To find stability of the system
@@ -12,7 +12,7 @@
 
  
 
-*3. Theory*
+#3. Theory
 
 *3.1	Drug Delivery System*
     Drug delivery refers to approaches, formulations, technologies, and systems for transporting a pharmaceutical compound in the body some time based on nanoparticles as needed to safely achieve its desired therapeutic effect. It may involve scientific site-targeting within the body, or it might involve facilitating systemic pharmacokinetics in any case, it is typically concerned with both quantity and duration of drug presence. Drug delivery is often approached via a drug's chemical formulation, but it may also involve medical devices or drug-device combination products. Drug delivery is a concept heavily integrated with dosage form and route of administration, the latter sometimes even being considered part of the definition.
